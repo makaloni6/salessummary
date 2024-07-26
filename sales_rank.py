@@ -63,12 +63,5 @@ def main():
     write_csv(count_dict)
 
 if __name__ == '__main__':
-    # main()
-    count_dict = {}
-    acc = 'exciteplus'
-    data = get_data(acc)
-    code_dict = get_codedict(acc)
-
-    converted_data = convert_data(data, code_dict)
-    update_count(count_dict, converted_data)
-    write_csv(count_dict)
+    main()
+   
